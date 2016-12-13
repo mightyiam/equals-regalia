@@ -1,0 +1,35 @@
+{
+  "name": "equals-regalia",
+  "version": "1.0.0",
+  "description": "Deep equality check for regalia trees",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "standard",
+    "unit": "ava",
+    "test": "npm run lint && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightyiam/equals-regalia.git"
+  },
+  "keywords": [
+    "regalia",
+    "deep",
+    "equal"
+  ],
+  "author": "Shahar Or <mightyiampresence@gmail.com> (mightyiam)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightyiam/equals-regalia/issues"
+  },
+  "homepage": "https://github.com/mightyiam/equals-regalia#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "regalia": "^1.0.1",
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.4.0",
+    "regalia-reverse": "^1.0.0"
+  }
+}
